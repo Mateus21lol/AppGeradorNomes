@@ -1,0 +1,88 @@
+<!--
+  Generated template for the NomesreaismasculinosPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title class="titleClass">Nomes Masculinos</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="BackgroundClass">
+
+
+
+  <ion-grid>
+    <ion-row>
+
+
+      <ion-card class="cardClass">
+        <br />
+        <div id="botao">
+          <ion-card-header>
+            <p class="titleHeaderClass"><b>Nome Simples</b></p>
+          </ion-card-header>
+          <button ion-button round outline color="dark" (click)="gerarNomeSimples()">Gerar Nome </button>
+          <br />
+          <br />
+          <p class="nameGenerateClass"><b>{{NomeSimplesGerado}}</b></p>
+          <br />
+          <br />
+        </div>
+      </ion-card>
+
+      <ion-card class="cardClass">
+        <br />
+        <div id="botao">
+          <ion-card-header>
+            <p class="titleHeaderClass"><b>Nome Simples Completo</b></p>
+          </ion-card-header>
+          <button ion-button round outline color="dark" (click)="gerarNomeSimplesCompleto()">Gerar Nome </button>
+          <br />
+          <br />
+          <p><b>{{NomeSimplesCompletoGerado}}</b></p>
+          <br />
+          <br />
+        </div>
+      </ion-card>
+
+      <ion-card class="cardClass">
+        <br />
+        <div id="botao">
+          <ion-card-header>
+            <p class="titleHeaderClass"><b>Nome Composto</b></p>
+          </ion-card-header>
+          <button ion-button round outline color="dark" (click)="gerarNomeComposto()">Gerar Nome </button>
+          <br />
+          <br />
+          <p><b>{{NomeCompostoGerado}}</b></p>
+          <br />
+          <br />
+        </div>
+      </ion-card>
+
+      <ion-card class="cardClass">
+        <br />
+        <div id="botao">
+          <ion-card-header>
+            <p class="titleHeaderClass"><b>Nome Composto Completo</b></p>
+          </ion-card-header>
+          <button ion-button round outline color="dark" (click)="gerarNomeCompostoCompleto()">Gerar Nome
+          </button>
+          <br />
+          <br />
+          <p><b>{{NomeCompostoCompletoGerado}}</b></p>
+          <br />
+          <br />
+        </div>
+      </ion-card>
+
+
+    </ion-row>
+  </ion-grid>
+
+
+
+</ion-content>

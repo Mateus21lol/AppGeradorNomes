@@ -1,0 +1,32 @@
+page-home {
+    ion-card {
+        position: relative;
+        text-align: center;
+    }
+
+    .card-title {
+        position: absolute;
+        top: 15%;
+        font-size: 1.5em;
+        width: 100%;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .card-subtitle {
+        font-size: 1em;
+        position: absolute;
+        top: 52%;
+        width: 100%;
+        color: #fff;
+    }
+
+    .BackgroundClass {
+        //   background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.wired.com%2Fphotos%2F5a593a7ff11e325008172bc2%2F16%3A9%2Fw_2400%2Ch_1350%2Cc_limit%2Fpulsar-831502910.jpg&imgrefurl=https%3A%2F%2Fwww.wired.com%2Fstory%2Fnasa-just-proved-it-can-navigate-space-using-pulsars-where-to-now%2F&tbnid=6cpjIuEge5oRUM&vet=12ahUKEwj1puq-sfjsAhVvM7kGHf1UDNQQMygAegUIARCnAQ..i&docid=rlmpmRKckqOG_M&w=2400&h=1350&q=space&ved=2ahUKEwj1puq-sfjsAhVvM7kGHf1UDNQQMygAegUIARCnAQ"); /* The image used */
+        //background-image: url("../../assets/imgs/BackgroundMan.jpg");
+        //   opacity: 0.5;
+        //background: linear-gradient(to bottom, #f7f8f8, #acbb78);
+        background-color: #b8c6db;
+        background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "geradornomes",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,38 @@
+<!--
+  Generated template for the NomesreaisPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title style="text-align: center;">Nomes Reais</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="BackgroundClass">
+
+
+  <ion-grid>
+    <ion-row>
+
+      <ion-col col-6>
+        <ion-card (click)="nomesReaisMasculinos()">
+          <img src="assets/imgs/Man.jpg" />
+          <div class="card-title-Man">Homem</div>
+        </ion-card>
+      </ion-col>
+
+
+      <ion-col col-6>
+        <ion-card (click)="nomesReaisFemininos()">
+          <img src="assets/imgs/Woman.jpg" />
+          <div class="card-title">Mulher</div>
+        </ion-card>
+      </ion-col>
+
+
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
